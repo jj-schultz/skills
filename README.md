@@ -1,39 +1,8 @@
-# Base Prompts
+# My Skills
 
-This repo holds a collection of the base prompts I put together for my personal use
+This repo holds a collection of the skills I put together for my personal use
 
-### ChatGPT Global personalization
-To use, open ChatGPT customization settings, and add the contents of [chatgpt_personalization.md](chatgpt_personalization.md) to the section "What traits should ChatGPT have?"
-- These are instructions I use to customize ChatGPT’s global behavior.  
-- It covers tone, style, priorities, what I value, and how I want the model to communicate with me. 
 
----
-
-## ChatGPT Project Prompts
-To use these 'Project Prompts', create a new ChatGPT project and add the prompt as the project instructions
-
-### [router.md](router.md)
-A front-door agent for the ai_coding workflow that reads any request, selects the correct `$SKILL`, and returns a ready-to-paste `.ai_coding/<agent>/todo.md` snippet.
-- Keeps mutating vs. non-mutating rules straight, assembles multi-skill sequences, and reminds executors about history/log/notification rituals.
-- Ideal when you want consistent dispatching without re-reading `instructions--skills.md` each time.
-
-### [daily_journal.md](daily_journal.md)
-A journaling prompt that helps with daily reflection. Supports capturing what happened, what I learned, what I was feeling, and how things connect to broader goals.  Calls me out when necessary and provides critical feedback
-
-#### Daily Journal setup instructions
-1. Copy the text from [daily_journal.md](daily_journal.md) into the “Project Instructions” box when creating your `Daily Journal` ChatGPT project. This is the main set of instructions that guides how the journaling project works. The other files give it context, memory, and inspiration, but this one is the foundation.
-2. Make a file called 'daily_journal_goals.md'. This is where you’ll keep track of your bigger goals, so your daily notes can link back to what matters most in the long run.
-3. Make a file called 'daily_journal_inspirations.md'. Fill it with quotes, ideas, or themes that motivate you. Think of it as a library of inspiration to draw from.
-4. Make a file called 'daily_journal_additional_context.md'. Use it to jot down background details or reminders that will help connect your journal entries over time.
-5. Add those three files, plus everything inside [daily_journal--project_files](daily_journal--project_files), as “files” in the `Daily Journal` ChatGPT project.
-
-#### Daily Journal usage instructions
-Every morning in this project, I start a new chat with a journal entry broken into three sections:
-1.  Recap of yesterday (bulleted list of stuff that happened yesterday and how I felt about it)
-2.  Today's agenda (bulleted list of my high level goals for today)
-3.  Current mood (how I'm feeling 'right now')
-
----
 
 ### [teacher.md](teacher.md)
 Generic prompt that puts the model in “explainer” mode. Designed for thoughtful, layered teaching. 
